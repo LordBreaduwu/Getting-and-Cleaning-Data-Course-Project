@@ -1,5 +1,6 @@
-# Getting-and-Cleaning-Data-Course-Project
+
 Getting and Cleaning Data Course Project
+
 This is a Repository for Coursera's "Getting and Cleaning Data" project. Contains the R code, tidy data, and codebook set for the project.
 
 The Steps are:
