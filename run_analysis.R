@@ -2,15 +2,15 @@ library(plyr)
 
 #DR 
 
-# Download the dataset
+# Download dataset
 if(!file.exists("./getcleandata")){dir.create("./getcleandata")}
 fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileurl, destfile = "./getcleandata/projectdataset.zip")
 
-# Unzip the dataset
+# Unzip dataset
 unzip(zipfile = "./getcleandata/projectdataset.zip", exdir = "./getcleandata")
 
-# 1. Merge the training and test datasets
+# 1. Merge training and test datasets
 
       # 1.1 Reading files
       
